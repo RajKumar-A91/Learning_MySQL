@@ -1,0 +1,14 @@
+SQL is a structured query language.
+Because SQL helps in working with structured data, like the data stored in tables.
+With SQL we create databases i.e, tables and we can retrieve required info from tables and we can manipulate data 
+present in tables.
+In 1970 EF Codd developed Relational Model based on Relation algebra and Tupe Relational Calculus.
+Later on IBM developed SQL on basis of theoritical knowledge of Relational Model developed by EF Codd.
+***
+SQL is Domain Specific language because we can work on only Structured data i.e, Relational Data.
+SQL is declarative language because it only tells what to do and it ignores how to do.
+But later on PLSQL came it is procedural sql and it how to do. But when it comes to SQL it is purely declarative language.
+SQL commands are:
+DDL, DML, DCL, TCL, CONSTRAINTS.
+
+
