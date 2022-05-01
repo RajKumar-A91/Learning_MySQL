@@ -1,0 +1,40 @@
+1.DDL: Data Definition Language
+It Deals with the schema ie structue.
+It simply deals with the table.
+It defines the structure or table or schema of data.
+***COMMANDS***
+1.create: Used to create tables or schemas or struture.
+2.Alter: Used to change datatypes of particular column in tables, if want to add or delete columns in tables.
+3.Drop: If we want to delete table .
+4.Truncate: Used to remove data from structure.
+5.Rename: Used to rename Structure or table.
+
+
+2.DML: Data Manipulation Language.
+we can perform DML only after creating table using DDL.
+***COMMANDS***
+1.Select: used to retrieve data from table.
+2.Insert: used to Insert data into table.
+3.Update: used to update previous data or used to modify data.
+4.Delete: used to delete data from table.
+  
+ 
+3.DCL: Data Control Language.
+It used to give access to users to insert data, delete data, and modify data
+***COMMANDS***
+1.Grant: used to give access to different users.
+2.Revoke: used to revoke or remove access to different users.
+
+
+4.TCL: Transaction Control Language.
+Used to control transactions in DBMS.
+***COMMANDS***
+1.Commit: used to save transactions in DataBase.
+2.Rollback: used if transactions gets failed we simply rollback it.
+3.SavePoint: we can save a transactions at different stages like at 30% or 40%.
+
+
+
+CONSTRAINTS:
+It is simply conditions on database.
+PrimaryKey: It is unique attribute. There will no duplicate values.
