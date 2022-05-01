@@ -1,0 +1,19 @@
+DataBase :
+It is a collection of data stored in a format that can easily be accessed.
+To manage Database we use software application called
+databaseManagementSysetm(DBMS).
+DataBaseManagementSystems are classified into two categories
+they are 
+1.Relational(Data Stored in Tables format) SQL is used for this.
+Famous RDBMS are: MySQL, SQL Server, Oracle by microsoft
+all the above similar ie they all are from one SQL and has different 
+flavours of SQL.
+2.NoSQL:
+NonRelationalDataBases here we don't have tables.
+NoSQL systems don't understand SQL.
+They have their own query language.
+***SQL***
+sql was developed at IBM and called sequel ie 
+Structured English Query Language.
+***SQL WITH MYSQL***
+
