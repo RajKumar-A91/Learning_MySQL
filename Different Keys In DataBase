@@ -1,0 +1,23 @@
+1.Candidate Key: used to uniquely identify a tuple.
+a tuple with candidate key should not be null.
+there can one or more candidate key in a relation.
+
+
+2.Super Key: Set of candidateKey that can uniquely identify a tuple.
+
+
+3.PrimaryKey: It is also a set of attributes which can be used to uniquely identify each and every tuple.
+There can be more than one candidate key in a relation out of which one can choosen as primary key.
+a primaryKey cannot have null values in its tuple.
+
+4.AlternateKey: The canditate key other than primary key is called as alternate key.
+
+
+4.ForeignKey: If an attribute can only take the values which are present as 
+values of some other attribute, it will bascially be the foreign key to the
+attribute to which it refers.
+The relation which is being referenced is called referenced relation and 
+corresponding attribute is called referenced attribute and the relation which referes to 
+referenced relation is called referencing relation and corresponding attribute
+is called referencing attribute.
+Referenced attribute of referencing attribute should be primary key.
