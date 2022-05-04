@@ -13,7 +13,7 @@ BIT(n), BITVARYING(n)
 TRUE, FALSE, UNKNOWN
 
 5.Date&Time:
-DATE, TIME
+DATE yyyy-mm-dd, TIME hh:mm:ss
 
 6.Timestamp
 
