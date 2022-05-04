@@ -1,0 +1,17 @@
+UNION OPERATION: 
+When we have two queries like left query and right query.
+union operation combines rows from both the queries.
+KEYWORD: UNION
+
+INTERSECT OPERATION:
+When we have two queries like left query and right query.
+Intersect operation keeps only those rows which are common in both the 
+queries.
+KEYWORD: INTERSECT
+
+
+MINUS OPERATION: 
+When we have two queries like left query and right query.
+Minus operation keeps rows from the left query 
+which are not included in the right query.
+KEYWORD: EXCEPT
