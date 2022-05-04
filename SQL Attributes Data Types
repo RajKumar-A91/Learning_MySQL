@@ -1,0 +1,36 @@
+DataTypes:
+
+1.Numeric: 
+INT, SMALLINT, FLOAT, REAL, DOUBLE PRECISION, DECIMAL(i,j)
+
+2.Character-String:
+CHAR(n), VARCHAR(n), CLOB
+
+3.Bit-String:
+BIT(n), BITVARYING(n)
+
+4.Boolean:
+TRUE, FALSE, UNKNOWN
+
+5.Date&Time:
+DATE, TIME
+
+6.Timestamp
+
+
+***CONSTRAINTS***
+Constraints in simple terms are the rules that can beapplied on the type of data in a table.
+
+1.NOT NULL: Ensures that a Null value cannot be stored in a column.
+
+2.UNIQUE: This constraint makes sure that all the values in a 
+column are different.
+
+3.CHECK: This constraint ensures that all the values in a column satisfy a
+specific condition.
+
+4.DEFAULT: This constraint considts of a set of defalut values for a 
+column when no values is specified.
+
+5.INDEX: This constraint is used to create and retrieve data from the 
+database very quickly.
