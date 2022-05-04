@@ -1,0 +1,15 @@
+1.SELECT operation: 
+The SELECT operation is used to choose a subset of the tuples from a relation that satisfies a
+selection condition.
+Selection operator only selects the required tuples but does not display them.
+For displaying, data PROJECTION operator is used.
+COMMAND: SELECT
+
+2.PROJECT operation: 
+The PROJECT operation, selects certain columns from the table and discards the other columns.
+We use PROJECT operator with SELECT operator.
+COMMAND: DISTINCT
+
+RENAME OPERATION: 
+RENAME is an unary operation used for renaming attributes of a relation.
+
