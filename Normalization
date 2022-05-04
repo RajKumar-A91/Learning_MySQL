@@ -1,0 +1,31 @@
+Normalization ia a technique that organizes tables in scuh a way that
+redundancy and dependency of data is reduced.
+It is technique of data modelling.
+there are basiclly mainly 4 types of normalization and they are:
+1nf, 2nf, 3nf, Bcnf
+
+
+**If all the tables are in 2nf then we need to go for 3nf bcnf 4nf.
+
+
+**1NF: Each table cell should have a single value. So, basically all the
+records must be unique.
+
+
+**2NF: Database should be 1NF and should also have single column primaryKey.
+
+Transitive Functional Dependency: If change non key column value 
+then we need to change other non key cloumn value.
+Ex: if we change name from Raj to Rani 
+Then we need to salutation from Mr to Ms.
+
+
+**3NF: The database should be in 2NF and must not have any transitive
+functional dependencies.
+
+
+
+**BCNF: I your database is in 3rd NormalForm, there would be some scenarios
+where anomalies would be present, if you have more one candidate key. Then
+BCNF comes into role, where you divide your tables furhter so that there
+would be only one candidate key present.
