@@ -1,0 +1,16 @@
+CROSS PRODUCT between 2 relations (say A & B) will result all the attributes
+of A followed by each attribute of B. So, each record of A will pair with every
+record of B.
+
+A    relation                           B   relation
+Name       Age         Sex              Id          Department
+Raj        22          M                1           Tech
+Ayesha     20          F                2           Sales
+
+
+A*B
+Name      Age      Sex     Id        Department
+Raj       22       M       1         Tech
+Raj       22       M       2         Sales
+Ayesha    20       F       1         Tech
+Ayesha    20       F       2         Sales
