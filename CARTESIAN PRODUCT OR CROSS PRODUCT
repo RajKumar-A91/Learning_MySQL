@@ -14,3 +14,7 @@ Raj       22       M       1         Tech
 Raj       22       M       2         Sales
 Ayesha    20       F       1         Tech
 Ayesha    20       F       2         Sales
+
+EX:
+SELECT ssn,bdate,dname
+FROM employee, department;
