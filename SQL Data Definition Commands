@@ -1,0 +1,21 @@
+CREATE INDEX: Creates an index for a table.
+
+ALTER TABLE: Modifies a talbe's definition(adds, modifies, or deletes attributes or constraints).
+
+DROP TABLE: Permanently deletes a table(and thus its data).
+
+CREATE SCHEME AUTHORIZATION:Creates a database schema.
+
+CREATE TABLE: Creates a new table in the user's database schema.
+     NOT NULL: Ensures that a column will not have null values.
+     UNIQUE:Ensures that a column will not have duplicate values.
+     PRIMARY KEY: Defines a primary key for a talbe.
+     FOREIGN KEY: Defines a foreign key for a table.
+     DEFALUT: Defines a default value for a column (when no value is given).
+     CHECK: Constraint used to validate data in an attribute.
+DROP VIEW: permanently deletes a view.
+DROP INDEX:Permanently deletes and index.
+CREATE VIEW: Create a dynamic subset of rows/columns from one or more tables.
+CREATE TABLE AS: Creates a new table based on a query in the user's 
+ database schema.
+                
