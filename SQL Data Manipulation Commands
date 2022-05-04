@@ -1,0 +1,20 @@
+UPDATE: Modifies an attribute's values in one or more talbe's rows.
+
+COMMIT: Permanently saves data changes.
+
+INSERT: Inset row(s) into a table.
+
+SELECT: Selects attributes from rows in one or more tables or views.
+     
+     WHERE: Restricts the selection of rows based on a conditional
+     expression.
+     
+     GROUP BY:Groups the selected rows based on one or more attributes.
+     
+     HAVING: Restricts the selection of grouped rows based on a condition.
+     
+     ORDER BY: Orders the selected rows based on one or more attributes.
+
+DELETE: Deletes one or more rows from a table.
+
+ROLLBACK: Restores data to their original values.
