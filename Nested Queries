@@ -1,0 +1,10 @@
+NESTED QUERIES are SQL queries which have an outer query and inner subquery.
+The subquery is a query nested within another query such as 
+SELECT, INSERT, UPDATE, DELETE.
+
+EX:
+SELECT lastname, firstname     ------>OUTER QUERY
+FROM employee
+WHERE addressCode IN (SELECT addressCode       -------->INNER QUERY
+                      FROM office
+                      WHERE country='INDIA');
