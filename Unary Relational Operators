@@ -4,6 +4,8 @@ selection condition.
 Selection operator only selects the required tuples but does not display them.
 For displaying, data PROJECTION operator is used.
 COMMAND: SELECT
+For selecting all attributes in a relation we use * with select
+i.e SELECT *
 
 2.PROJECT operation: 
 The PROJECT operation, selects certain columns from the table and discards the other columns.
