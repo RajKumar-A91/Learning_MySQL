@@ -8,3 +8,15 @@ FROM employee
 WHERE addressCode IN (SELECT addressCode       -------->INNER QUERY
                       FROM office
                       WHERE country='INDIA');
+                      
+*A subquery in MySQL is a query, which is nested into another SQL query and embedded with SELECT, INSERT, UPDATE or DELETE statement along with the various operators. 
+We can also nest the subquery with another subquery. A subquery is known as the inner query, and the query that contains subquery is known as the outer query.
+
+*The inner query executed first gives the result to the outer query, and then the main/outer query will be performed.
+
+*MySQL allows us to use subquery anywhere, but it must be closed within parenthesis.
+
+Way of writing subquery:
+SELECT column_list (s) FROM  table_name  
+WHERE  column_name OPERATOR  
+   (SELECT column_list (s)  FROM table_name [WHERE])
